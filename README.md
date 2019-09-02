@@ -1,17 +1,17 @@
 # Automation-Tool-Ansible
 
-**What is Automation?**
+* **What is Automation?**
 
 Automation is the creation of technology by which a process or procedure is performed with minimal human assistance 
 and its application in order to control and monitor the production and delivery of various goods and services.
 
-**Automation Tool: Ansible**
+* **Automation Tool: Ansible**
 
 Ansible is an automation tool significantly used for configuration management,infrastructure management. By using this simple
 tool from configuration to deployment to zero-downtime rolling upgrades, Ansible is a single framework that can fully automate
 today’s modern enterprise apps.
 
-**Why Do We Need Ansible?**
+* **Why Do We Need Ansible?**
 
 Let us take a little flashback to the beginning of networked computing when deploying and managing servers reliably and 
 efficiently has been a challenge. Previously, system administrators managed servers by hand, installing software, changing 
@@ -20,7 +20,7 @@ configurations, and administering services on individual servers.
 Consider the tedious routine of administering a server fleet. We always need to keep updating, pushing changes, copying 
 files on them etc. These tasks make things very complicated and time consuming. The solution to all these problems is – ***Ansible.***
 
-**Key Features**
+* **Key Features**
 
 **Free:** Ansible is an open-source tool.
 
