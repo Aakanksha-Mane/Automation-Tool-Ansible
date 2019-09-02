@@ -1,10 +1,12 @@
 # Automation-Tool-Ansible
 
 **What is Automation?**
+
 Automation is the creation of technology by which a process or procedure is performed with minimal human assistance 
 and its application in order to control and monitor the production and delivery of various goods and services.
 
 **Automation Tool: Ansible**
+
 Ansible is an automation tool significantly used for configuration management,infrastructure management. By using this simple
 tool from configuration to deployment to zero-downtime rolling upgrades, Ansible is a single framework that can fully automate
 today’s modern enterprise apps.
@@ -21,8 +23,13 @@ files on them etc. These tasks make things very complicated and time consuming. 
 **Key Features**
 
 **Free:** Ansible is an open-source tool.
+
 **Very simple to set up and use:** No special coding skills are necessary to use Ansible’s playbooks (more on playbooks later).
+
 **Powerful:** Ansible lets you model even highly complex IT workflows. 
+
 **Flexible:** You can orchestrate the entire application environment no matter where it’s deployed. You can also customize it based on your needs.
+
 **Agentless:** You don’t need to install any other software or firewall ports on the client systems you want to automate. You also don’t have to set up a separate management structure.
+
 **Efficient:** Because you don’t need to install any extra software, there’s more room for application resources on your server.
