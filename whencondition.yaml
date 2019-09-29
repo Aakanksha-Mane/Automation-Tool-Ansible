@@ -1,0 +1,20 @@
+- hosts: local
+  vars:
+        ansible_python_interpreter: "/usr/bin/python3"
+  tasks:
+   - name: Installing httpd
+     dnf: 
+        name: python3
+     when: (ansible_os_family == "RedHat" ) or (ansible_distribution == "Fedora") 
+     tags: red
+
+   - name: Installing Apache
+     apt: 
+        name: apache
+        state: latest
+     when: ansible_os_family == "debian" or ansible_distribution == "ubuntu"
+   
+   - name: Debug Msg
+     debug: 
+        msg: "Hiiiii"
+     tags: blue

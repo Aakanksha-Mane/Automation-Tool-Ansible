@@ -1,0 +1,21 @@
+---
+- name: Trying to linking two conatiners
+  hosts: local
+  become: yes
+  tasks:
+     - name: Running mysql conatiner
+       docker_container:
+          name: backend
+          image: mysql:5
+          env:
+            MYSQL_ROOT_PASSWORD: "redhat"
+     - name: Running Wordpress
+       docker_container:
+          name: frontend
+          image: wordpress:latest
+          links: "backend"
+          env:
+            WORDPRESS_DB_HOST: "backend:3306"
+            WORDPRESS_DB_PASSWORD: "redhat"
+            WORDPRESS_DB_NAME: "wordpress"
+          ports: "8080:80"

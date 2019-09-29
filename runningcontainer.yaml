@@ -1,0 +1,11 @@
+---
+- name: Trying to run container
+  hosts: all
+  tasks:
+    - name: Create a data container
+      docker_container:
+        name: mydata
+        image: httpd
+        volumes:
+           - /home/Aakanksha/ansible/data
+

@@ -1,0 +1,10 @@
+---
+- name: Uninstall httpd but keep its dependencies
+  hosts: all
+  tasks:
+    - name: Uninstalling Packages
+      dnf:
+       name: httpd
+       state: absent
+       remove: yes
+
