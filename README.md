@@ -33,3 +33,16 @@ files on them etc. These tasks make things very complicated and time consuming. 
 * **Agentless:** You don’t need to install any other software or firewall ports on the client systems you want to automate. You also don’t have to set up a separate management structure.
 
 * **Efficient:** Because you don’t need to install any extra software, there’s more room for application resources on your server.
+
+## **Installtion of Ansible**
+
+On Fedora Operating System
+dnf install ansible
+
+On CentOS Operating System
+yum install ansible
+
+Note:If you are logged in with normal user then use sudo.
+
+For other Operating Systems go on
+https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
