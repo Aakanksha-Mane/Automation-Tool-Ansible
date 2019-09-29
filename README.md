@@ -37,9 +37,11 @@ files on them etc. These tasks make things very complicated and time consuming. 
 ## **Installtion of Ansible**
 
 On Fedora Operating System
+
 dnf install ansible
 
 On CentOS Operating System
+
 yum install ansible
 
 Note:If you are logged in with normal user then use sudo.
